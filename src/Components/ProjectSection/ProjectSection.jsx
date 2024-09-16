@@ -7,7 +7,7 @@ const ProjectSection = () => {
         {
             title: "Restaurant Web Template",
             description: "A website template for showcasing your restaurant.",
-            link: "https://heartfelt-hotteok-2cc46a.netlify.app/"
+            link: "https://austinsrestaurantproj.netlify.app/"
         }
     ]
 
