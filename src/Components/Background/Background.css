@@ -239,9 +239,6 @@ header {
 
 /* For mobile devices */
 @media (max-width: 768px) {
-    .wrapper{
-        z-index: -1;
-    }
 
     .background{
         width: 0;
@@ -253,10 +250,10 @@ header {
     }
 
     .info {
-        width: 90vw; /* Make the width 100% for mobile */
-        flex-direction: row; /* Stack content vertically */
-        margin: 0 auto; /* Center content */
-        text-align: center; /* Center text */
+        width: 90vw; 
+        flex-direction: row;
+        margin: 0 auto; 
+        text-align: center; 
         height: 30vw;
         display: flex;
         justify-content: center;
@@ -275,11 +272,15 @@ header {
     }
 
     .info-pic {
-        margin-bottom: 1.5rem; /* Add some space below the image */
-        width: 15vw; /* Smaller profile image */
+        margin-bottom: .5rem; 
+        margin-right: 1rem;
+        width: 15vw; 
         height: 15vw;
         border-radius: 50%;
         object-fit: contain;
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
     }
 
     .info-text li{
@@ -290,7 +291,7 @@ header {
     }
 
     .hello, .start-name {
-        font-size: 1rem; /* Slightly reduce font size */
+        font-size: 1rem; 
     }
 
     .name{
@@ -302,7 +303,7 @@ header {
     }
 
     .btn-container {
-        flex-direction: row; /* Stack buttons vertically */
+        flex-direction: row; 
         justify-content: center;
         align-items: center;
         width: 15vw;
