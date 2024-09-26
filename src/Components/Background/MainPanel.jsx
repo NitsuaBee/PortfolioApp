@@ -27,22 +27,22 @@ const MainPanel = () => {
               <div className="info-pic">
                 <img src={Pictures.ProfilePic} alt="" className="picture" />
               </div>
-                <div className="info-text">
-                    <div className="info-greeting">
-                      <ul className="list1">
-                        <li className="hello">Hello,</li>
-                        <li className="start-name">my name is</li>                    
-                      </ul>
-                      <ul className='list2'>
-                        <li className="name">Austin Butrviengpunt</li>
-                      </ul>
-                      <ul className='list1'>
-                        <li className="hello">I'm a</li>
-                        <li className="name">Frontend Developer</li>
-                      </ul>
-                    </div>                  
-                  </div>
-                </div>
+              <div className="info-text">
+                <div className="info-greeting">
+                  <ul className="list1">
+                    <li className="hello">Hello,</li>
+                    <li className="start-name">my name is</li>                    
+                  </ul>
+                  <ul className='list2'>
+                    <li className="name">Austin Butrviengpunt</li>
+                  </ul>
+                  <ul className='list1'>
+                    <li className="hello">I'm a</li>
+                    <li className="name">Frontend Developer</li>
+                  </ul>
+                </div>                  
+              </div>
+            </div>
             <div className="btn-container">
               <a href={AustinCV} download="AustinCV.pdf">
                  <button className='btn-resume'>My CV</button>
@@ -51,6 +51,9 @@ const MainPanel = () => {
                 <button className="btn-projects">Projects</button>              
               </a>
             </div>
+            <ul className="list3">
+                  <li className="hello-about">Please scroll down to view my about me</li>
+                  </ul>
             
         </header>
         <motion.div animate={{ y: 100, scale: 1 }} intial={{scale: 0}} className="panel">
